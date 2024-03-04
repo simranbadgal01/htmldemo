@@ -1,0 +1,45 @@
+.container{
+
+    height: 500px;
+    display: flex;
+   
+    background-color: red;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content:space-evenl;
+
+    
+    
+}
+.div1{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(230, 23, 185);
+}
+.div2{
+    height: 200px;
+    
+   
+    background-color: rgb(9, 214, 19);
+}
+.div3{
+    width: 100px;
+     
+     background-color: blue;
+
+}
+.div4{
+    width: 100px;
+    
+    background-color: rgb(188, 219, 12);
+    
+   
+}
+.div5{
+    width: 100px;
+    
+    background-color: rgb(204, 8, 243);
+
+}
+.div2{
+    flex-grow: 2;}

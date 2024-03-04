@@ -1,0 +1,81 @@
+.container{
+
+    height: 800px;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    background-color: rgb(235, 61, 61);
+    gap: 20px;
+    grid-template-columns: repeat(3,300px);
+    /* grid-template-rows: 200px 200px; */
+    align-content: center;
+    justify-content: center;
+    align-items: end;
+    
+
+    
+    
+}
+.div1{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(230, 23, 185);
+    border: 1px;
+    padding: 20px;
+}
+.div2{
+    width: 100px;
+    height: 200px;
+    border: 1px;
+    padding: 20px;
+    background-color: rgb(9, 214, 19);
+}
+.div3{
+    width: 100px;
+     height: 200px;
+     background-color: blue;
+     border: 1px;
+     padding: 20px;
+}
+.div4{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px;
+    padding: 20px;
+   
+}
+.div5{
+    width: 100px;
+    height: 200px;
+    background-color: #08d8f3;
+    border: 1px;
+    padding: 20px;
+}
+.div6{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(219, 121, 29);
+    border: 1px;
+    padding: 20px;
+}
+.div7{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(238, 153, 227);
+    border: 1px;
+    padding: 20px;
+} 
+.div8{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(30, 30, 37);
+    border: 1px;
+    padding: 20px;
+}
+.div9{
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    border: 1px;
+    padding: 20px;
+}

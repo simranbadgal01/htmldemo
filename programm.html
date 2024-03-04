@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+    
+        <div id="output"></div>
+        <script>
+            // let x = null;
+            // let y = x??5;;
+            
+            // document.getElementById("output")
+            // innerHtML="the value of y:" + y;
+            // 
+            let x= 5||7??9;
+            let y=(5||7)??9;
+           let a= 5&&7??9;
+           let b=(5&&7)??9;
+           document.getElementById("output").innerHTML="the value of x:"+ x + "<br/>";
+           document.getElementById("output").innerHTML+= "the value of y:"+ y + "<br/>";
+           document.getElementById("output").innerHTML+= "the value of a:"+a+"<br/>";
+           document.getElementById("output").innerHTML+="the value of b:"+b+"<br/>";
+        </script>
+
+</body>
+</html>
